@@ -1,0 +1,77 @@
+/* ===========Laptop======== */
+@media only screen 
+  and (min-width: 1025px) 
+  and (max-width: 1600px){ 
+    .download-box__button{
+
+    }
+}
+
+/* ==========Tablet=============== */
+@media only screen 
+    and (min-width: 813px)
+    and (max-width: 1024px){
+        .container{
+            padding: 0;
+        }
+}
+
+/* ===========Mobile======== */
+
+@media only screen 
+    and (min-width: 375px )
+    and ( max-width: 812px ){
+        .container{
+            padding: 0;
+        }
+
+        /* ===Heading=== */
+        .heading__download-box{
+            display: none;
+        }
+        .heading__take-tour{
+            left: 0;
+            top: 100%;
+            transform: translateY(-100%);
+            width: 100%;
+            background-color: black;
+            padding: 12px;
+            height: fit-content;
+            border-radius: 0;
+        }
+        .download-box__button.mobile{
+            display: flex;
+        }
+        
+        /* ===Section2=== */
+        .section2, .section3{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .section2__text,.section3__text{
+            padding: 0;
+            text-align: justify;
+            word-spacing: normal;
+            letter-spacing: normal;
+        }
+
+        .section2 .available{
+            padding-bottom: 20px;
+        }
+
+        .section3{
+            flex-wrap: wrap-reverse;
+        }
+
+
+        .section5__tables{
+            flex-wrap: wrap;
+        }
+        .table{
+            width: 100%;
+        }
+
+
+
+        
+}
